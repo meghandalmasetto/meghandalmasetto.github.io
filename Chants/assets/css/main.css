@@ -1,0 +1,67 @@
+body {
+	background-color:teal;
+	font-family:helvetica;
+}
+
+.bg {
+	text-align:center;
+	text-shadow:10px 10px 15px navy;
+}
+
+.bg.one {
+	background-color:teal;
+	display:none;
+}
+
+.bg.two {
+	background-color:turquoise;
+	display:block;
+}
+
+.bg.three {
+	display:block;
+}
+
+.bg.four {
+	background-color:teal;
+	display:block;
+}
+
+.middle.one {
+	color:white;
+}
+
+.middle.two {
+	color:teal;
+	transform:rotate(180deg);
+}
+
+.middle.three {
+	color:lightblue;
+}
+
+.middle.four {
+	color:turquoise;
+}
+
+.text {
+
+}
+
+.text.one {
+	font-size:100px;
+}
+
+.text.two {
+	font-size:30px;
+}
+
+.text.three {
+	font-size:60px;
+}
+
+.text.four {
+	font-size:300px;
+}
+
+
