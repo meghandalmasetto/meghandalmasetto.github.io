@@ -1,0 +1,72 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	background-color:lightblue;
+}
+
+a {
+	color:black;
+}
+
+.mandala {
+	width:700px;
+	margin-left:600px;
+	margin-right:auto;
+	margin-top:0px;
+}
+
+.mandala img {
+	width:100%;
+}
+
+.mandala:hover {
+	transform:skew(-10deg);
+	transition:2s;
+}
+
+
+.links {
+	position:fixed;
+	color:teal;
+	font-size:90px;
+	font-family:courier;
+	padding-left:30px;
+	padding-top:15px;
+}
+
+.links a {
+	text-decoration:none;
+	color:white;
+	display:block;
+	font-family:Arial;
+	font-size:30px;
+	line-height:35px;
+}
+
+.links a:hover {
+	text-shadow:3px 3px 1px teal;
+}
+
+
+.name {
+	font-size:100px;
+	text-align:center;
+	color:white;
+
+}
+
+.copy {
+	font-size:15px;
+	text-align:center;
+	font-family:courier;
+	background-color:lightblue;
+	padding:5px;
+
+}
+
+.coffee {
+	position:fixed;
+	left:320px;
+	top:220px;
+	transform:rotate(20deg);
+}
+
