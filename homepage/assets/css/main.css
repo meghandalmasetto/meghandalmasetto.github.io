@@ -14,11 +14,12 @@ a {
 
 .mandala {
 	width:700px;
-	margin-left:600px;
+	margin-left:572px;
 	margin-right:auto;
-	margin-top:5px;
+	margin-top:10px;
 	border: 3px dotted white;
 	border-width:10px;
+
 }
 
 .mandala img {
@@ -37,7 +38,7 @@ a {
 	text-shadow:2px 2px 3px rgb(156,198,188);
 	font-size:100px;
 	font-family:courier;
-	padding-left:60px;
+	padding-left:75px;
 	padding-top:35px;
 }
 
