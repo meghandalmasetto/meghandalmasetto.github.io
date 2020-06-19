@@ -1,0 +1,467 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+	background-color:rgb(9,11,10);
+}
+
+.container {
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.w1of1 {
+	width:100%;
+}
+
+.w1of2 {
+	width:50%;
+}
+
+.w2of2 {
+	width:100%;
+}
+
+.w1of4 {
+	width:25%;
+}
+
+.w2of4 {
+	width:50%;
+}
+
+.w3of4 {
+	width:75%;
+}
+
+.w4of4 {
+	width:100%;
+}
+
+.w1of3 {
+	width:33.33%;
+}
+
+.w2of3 {
+	width:66.66%;
+}
+
+.w3of3 {
+	width:100%;
+}
+
+.item img {
+	width:100%;
+}
+
+.menu {
+	width:50px;
+	height:50px;
+	border-radius:100%;
+	background-color:rgb(170,86,37);
+	position:fixed;
+	left:1290px;
+	top:20px;
+	cursor:pointer;
+}
+
+.menu img {
+	width:40px;
+	height:35px;
+	padding-left:13px;
+	padding-top:13px;
+	padding-right:3px;
+}
+
+.menu:hover {
+	text-shadow:2px 3px 5px white;
+}
+
+.header {
+	background-image:url(images/marscover.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	font-family:Arial, san-serif;
+	font-weight:bold;
+	font-size:120px;
+	color:rgb(9,11,10);
+	position:center;
+	text-align:center;
+	padding-top:300px;
+	padding-bottom:300px;
+	-webkit-text-stroke: 3px white;
+}
+
+/*start journey*/
+
+.journey {
+	font-family:Arial, san-serif;
+	font-weight:bold;
+	font-size:54px;
+	color:white;
+	position:left;
+	padding-left:30px;
+	padding-top:100px;
+}
+
+.journeysub {
+	font-family:Arial, san-serif;
+	font-weight:bold;
+	font-size:20px;
+	color:white;
+	position:left;
+	padding-left:100px;
+	padding-top:10px;
+}
+
+.planets {
+	margin:30px;
+	padding-top:50px;
+	cursor:pointer;
+}
+
+.content {
+	font-family:Arial, san-serif;
+	font-weight:bold;
+	font-size:25px;
+	color:white;
+	text-shadow:2px 3px 5px rgb(9,11,10);
+	text-align:center;
+	padding:35px;
+	height:20vh;
+	background-color:rgb(170,86,37);
+	display:none;
+	display:flex;
+	animation-name:shake;
+  	animation-duration:1000ms;
+  	animation-iteration-count: infinite;
+  	animation-timing-function: linear;
+  	animation-direction: alternate;
+}
+
+@keyframes shake {
+  0% {
+    margin-right:-100px;
+  }
+  50% {
+    margin-left:-50px;
+  }
+  100% {
+    margin-left:-100px;
+  }
+}
+
+
+
+/*end journey*/
+
+/*start landing*/
+
+.landing {
+	font-family:Arial, san-serif;
+	font-weight:bold;
+	font-size:54px;
+	color:white;
+	position:left;
+	padding-left:30px;
+	padding-top:100px;
+}
+
+.landingsub {
+	font-family:Arial, san-serif;
+	font-weight:bold;
+	font-size:20px;
+	color:white;
+	position:left;
+	padding-left:100px;
+	padding-top:10px;
+}
+
+.video {
+	background-color:rgb(170,86,37);
+	margin:100px;
+	font-family:Arial, san-serif;
+	font-weight:bold;
+	font-size:20px;
+	color:white;
+	padding-top:80px;
+	padding-bottom:80px;
+	text-align:center;
+	display:block;
+}
+
+.toggle {
+	font-family:Arial, san-serif;
+	font-weight:bold;
+	font-size:54px;
+	color:white;
+	position:center;
+	text-align:center;
+	cursor:pointer;
+}
+
+.quote {
+	font-family:Arial, san-serif;
+	font-weight:bold;
+	font-size:20px;
+	text-transform:uppercase;
+	color:white;
+	position:center;
+	display:none;
+	background-image:url(images/mission.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	width:1150px;
+	height:472.5px;
+	padding-top:100px;
+	padding-left:100px;
+	padding-right:100px;
+	padding-bottom:80px;
+	text-align:center;
+	text-shadow:1px 1px 4px black;
+	justify-content:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+.quote h1 {
+	font-family:Arial, san-serif;
+	font-weight:bold;
+	font-size:25px;
+	text-transform:uppercase;
+	color:white;
+	position:center;
+	display:block;
+	text-shadow:1px 1px 4px black;
+	padding-top:50px;
+}
+
+/*end landing*/
+
+/*start living*/
+
+.living {
+	font-family:Arial, san-serif;
+	font-weight:bold;
+	font-size:54px;
+	color:white;
+	position:left;
+	padding-left:30px;
+	padding-top:100px;
+}
+
+.livingsub {
+	font-family:Arial, san-serif;
+	font-weight:bold;
+	font-size:20px;
+	color:white;
+	position:left;
+	padding-left:100px;
+	padding-top:10px;
+}
+
+.links {
+  	display:flex;
+  	flex-wrap:wrap;
+  	justify-content:space-around;
+}
+
+.b-1, .b-2, .b-3, .b-4 {
+  	cursor:pointer;
+}
+
+.popup {
+  	background:rgb(170,86,37);
+  	width:600px;
+  	height:450px;
+  	position:fixed;
+  	border-radius:20px;
+  	box-shadow:0px 0px 25px white;
+  	display:none;
+  	cursor:move;
+}
+
+.popup.show {
+  	display:block;
+}
+
+.p-1 {
+  	top:300px;
+  	left:30px;
+  	background-image:url(images/war.jpg);
+	background-size:cover;
+	background-image:width:600px;
+	overflow:scroll;
+}
+
+.p-1 h1 {
+	font-family:Arial, san-serif;
+	font-weight:bolder;
+	font-size:20px;
+	color:white;
+	position:left;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+.p-1 h2 {
+	font-family:Arial, san-serif;
+	font-weight:bold;
+	font-size:15px;
+	color:rgb(170,86,37);
+	position:left;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+.p-1 p {
+	font-family:Arial, san-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:rgb(9,11,10);
+	position:left;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+.p-2 {
+  	top:10px;
+  	right:50px;
+  	background-image:url(images/red.jpg);
+	background-size:cover;
+	background-image:width:600px;
+	overflow:scroll;
+}
+
+.p-2 h1 {
+	font-family:Arial, san-serif;
+	font-weight:bolder;
+	font-size:25px;
+	color:rgb(9,11,10);
+	position:left;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+.p-2 h2 {
+	font-family:Arial, san-serif;
+	font-weight:bold;
+	font-size:15px;
+	color:rgb(9,11,10);
+	position:left;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+.p-2 p {
+	font-family:Arial, san-serif;
+	font-size:15px;
+	font-weight:bold;
+	color:rgb(9,11,10);
+	position:left;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+.p-3 {
+  	bottom:50px;
+  	right:500px;
+  	top:50px;
+  	height:700px;
+  	background-image:url(images/martian.png);
+	background-size:cover;
+	background-image:width:600px;
+	overflow:scroll;
+}
+
+.p-3 h1 {
+	font-family:Arial, san-serif;
+	font-weight:bolder;
+	font-size:25px;
+	color:white;
+	position:left;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+.p-3 h2 {
+	font-family:Arial, san-serif;
+	font-weight:bold;
+	font-size:18px;
+	color:rgb(9,11,10);
+	position:left;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+.p-3 p {
+	font-family:Arial, san-serif;
+	font-size:15px;
+	font-weight:bolder;
+	color:rgb(9,11,10);
+	position:left;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+.p-4 {
+  	bottom:20px;
+  	right:70px;
+  	background-image:url(images/redvsmission.png);
+	background-size:cover;
+	background-image:width:700px;
+	overflow:scroll;
+	width:700px;
+	height:600px;
+}
+
+.p-4 h1 {
+	font-family:Arial, san-serif;
+	font-weight:bolder;
+	font-size:25px;
+	color:rgb(9,11,10);
+	position:left;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+.p-4 h2 {
+	font-family:Arial, san-serif;
+	font-weight:bold;
+	font-size:18px;
+	color:rgb(9,11,10);
+	position:left;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+.p-4 p {
+	font-family:Arial, san-serif;
+	font-size:15px;
+	color:white;
+	position:left;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+.alien {
+	display:block;
+  	margin-left:auto;
+  	margin-right:auto;
+  	align-content:center;
+  	width:60%;
+  	height:60%;
+}
+
+/*end living*/
+
+/*start copyright*/
+
+.copyright {
+	font-size:10px;
+	color:white;
+	font-weight:bold;
+	text-align:center;
+}
